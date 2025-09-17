@@ -202,67 +202,6 @@ ${formData.name}
           )}
         </form>
 
-        {/* Contact Information */}
-        <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
-          {/* Contact Cards */}
-          <div className="bg-primary rounded-2xl shadow-lg p-6">
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-black/10 rounded-full mr-4">
-                <Phone className="w-6 h-6 text-black" />
-              </div>
-              <h3 className="text-lg font-semibold text-black">Phone</h3>
-            </div>
-            <p className="text-body text-black">
-              Have questions? Call us at:
-            </p>
-            <a href="tel:+1234567890" className="text-black font-semibold">
-              +1 (234) 567-890
-            </a>
-          </div>
-          <div className="bg-primary rounded-2xl shadow-lg p-6">
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-black/10 rounded-full mr-4">
-                <Mail className="w-6 h-6 text-black" />
-              </div>
-              <h3 className="text-lg font-semibold text-black">Email</h3>
-            </div>
-            <p className="text-body text-black">
-              Prefer writing? Reach out to us via email:
-            </p>
-            <a href="mailto:hello@samayusolutions.com" className="text-primary font-semibold">
-              hello@samayusolutions.com
-            </a>
-          </div>
-          <div className="bg-primary rounded-2xl shadow-lg p-6">
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-black/10 rounded-full mr-4">
-                <MapPin className="w-6 h-6 text-black" />
-              </div>
-              <h3 className="text-lg font-semibold text-black">Location</h3>
-            </div>
-            <p className="text-body text-black">
-              Visit us at our office:
-            </p>
-            <p className="text-primary font-semibold">
-              123 Main Street, Cityville, ST 12345
-            </p>
-          </div>
-          <div className="bg-primary rounded-2xl shadow-lg p-6">
-            <div className="flex items-center mb-4">
-              <div className="p-3 bg-black/10 rounded-full mr-4">
-                <Clock className="w-6 h-6 text-black" />
-              </div>
-              <h3 className="text-lg font-semibold text-black">Business Hours</h3>
-            </div>
-            <p className="text-body text-black">
-              We're here to help, available at:
-            </p>
-            <p className="text-primary font-semibold">
-              Mon - Fri, 9:00 AM - 5:00 PM
-            </p>
-          </div>
-        </div>
-
         {/* Call to Action */}
         <div className="mt-16 text-center">
           <p className="text-body text-muted-foreground mb-4">
