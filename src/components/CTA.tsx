@@ -6,7 +6,7 @@ const CTA = () => {
   return (
     <section className="py-20 relative overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 bg-white from-primary/5 via-accent/5 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-transparent"></div>
       <div className="absolute top-10 left-10 w-24 h-24 bg-gradient-primary rounded-full opacity-20 blur-2xl animate-pulse"></div>
       <div className="absolute bottom-10 right-10 w-32 h-32 bg-gradient-to-r from-accent to-primary rounded-full opacity-30 blur-3xl animate-pulse delay-1000"></div>
       
