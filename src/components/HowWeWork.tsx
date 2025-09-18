@@ -33,14 +33,14 @@ const HowWeWork = () => {
   ];
 
   return (
-    <section id="how-we-work" className="py-20 bg-secondary/30">
+    <section id="how-we-work" className="py-20 bg-white rounded-[80px] shadow-sm">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-up">
-          <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            How We <span className="text-gradient">Work</span>
+          <h2 className="font-display text-black text-4xl md:text-5xl font-bold mb-6">
+            How We <span className="text-black">Work</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted max-w-3xl mx-auto">
             Our proven 4-step process ensures exceptional results and client satisfaction every time
           </p>
         </div>

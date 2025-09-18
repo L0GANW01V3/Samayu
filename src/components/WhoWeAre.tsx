@@ -3,7 +3,10 @@ import { ArrowRight, Play, Star, Users, Award, TrendingUp } from "lucide-react";
 
 const WhoWeAre = () => {
     return (
-        <section id="who-we-are" className="py-20 bg-background">
+        <section
+            id="who-we-are"
+            className="py-20 bg-white rounded-[80px] shadow-sm"
+        >
             <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 {/* Collage Images (Left Side) */}
                 <div className="lg:col-span-6 grid grid-cols-2 gap-4 relative">
@@ -40,24 +43,24 @@ const WhoWeAre = () => {
                 {/* Text Content (Right Side) */}
                 <div className="lg:col-span-6">
                     <div className="mb-6">
-                        <span className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium">
+                        <span className="bg-primary/10 text-black px-4 py-2 rounded-full text-sm font-medium">
                             Who We Are
                         </span>
                     </div>
 
-                    <h2 className="text-4xl font-bold text-foreground mb-6">
+                    <h2 className="text-4xl font-bold text-black mb-6">
                         We’re Passionate About{" "}
-                        <span className="text-gradient">Building Solutions</span>
+                        <span className="text-black">Building Solutions</span>
                     </h2>
 
-                    <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                        At <span className="text-primary font-semibold">Samayu Solutions</span>,
+                    <p className="text-lg text-black leading-relaxed mb-4">
+                        At <span className="text-black font-semibold">Samayu Solutions</span>,
                         we believe in creating digital experiences that inspire, connect, and drive growth.
                         Our team of experts collaborates with brands worldwide to craft custom strategies,
                         modern web solutions, and innovative products.
                     </p>
 
-                    <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+                    <p className="text-lg text-black leading-relaxed mb-8">
                         Whether it’s building cutting-edge websites, designing scalable platforms, or
                         delivering top-notch support, we’re here to help businesses achieve more and
                         grow smarter with technology.
