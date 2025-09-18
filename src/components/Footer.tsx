@@ -70,7 +70,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-secondary/30 border-t border-border">
+    <footer className="bg-secondary/30">
       {/* Newsletter Section */}
       <div className="border-b border-border py-12">
         <div className="container mx-auto px-4">

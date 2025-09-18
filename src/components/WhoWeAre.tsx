@@ -5,7 +5,7 @@ const WhoWeAre = () => {
     return (
         <section
             id="who-we-are"
-            className="py-20 bg-white rounded-[80px] shadow-sm"
+            className="py-20 bg-white/90 rounded-[80px] shadow-sm"
         >
             <div className="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 {/* Collage Images (Left Side) */}

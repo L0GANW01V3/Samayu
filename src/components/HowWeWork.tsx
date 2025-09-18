@@ -33,7 +33,7 @@ const HowWeWork = () => {
   ];
 
   return (
-    <section id="how-we-work" className="py-20 bg-white rounded-[80px] shadow-sm">
+    <section id="how-we-work" className="py-20 bg-white/90 rounded-[80px] shadow-sm">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-up">
